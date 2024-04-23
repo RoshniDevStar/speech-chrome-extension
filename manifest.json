@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Speak Selected Text",
+    "version": "1.0",
+    "description": "A browser extension that speaks the selected text when right-clicked.",
+    "permissions": ["tts", "contextMenus"],
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "background": {
+      "service_worker": "eventPage.js"
+    },
+    "action": {
+      "default_icon": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      }
+    }
+  }
+  
